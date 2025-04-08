@@ -1,0 +1,540 @@
+TOPIC: sensor_baro instance 0 #1
+ sensor_baro
+    timestamp: 19985531740 (105.418907 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #2
+ sensor_baro
+    timestamp: 19985531740 (105.421646 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #3
+ sensor_baro
+    timestamp: 19985531740 (105.424469 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #4
+ sensor_baro
+    timestamp: 19985531740 (105.427177 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #5
+ sensor_baro
+    timestamp: 19985531740 (105.429901 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #6
+ sensor_baro
+    timestamp: 19985531740 (105.432587 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #7
+ sensor_baro
+    timestamp: 19985531740 (105.435417 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #8
+ sensor_baro
+    timestamp: 19985531740 (105.438118 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #9
+ sensor_baro
+    timestamp: 19985531740 (105.440865 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #10
+ sensor_baro
+    timestamp: 19985531740 (105.443687 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #11
+ sensor_baro
+    timestamp: 19985531740 (105.446404 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #12
+ sensor_baro
+    timestamp: 19985531740 (105.449142 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #13
+ sensor_baro
+    timestamp: 19985531740 (105.451820 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #14
+ sensor_baro
+    timestamp: 19985531740 (105.454659 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #15
+ sensor_baro
+    timestamp: 19985531740 (105.457352 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #16
+ sensor_baro
+    timestamp: 19985531740 (105.460098 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #17
+ sensor_baro
+    timestamp: 19985531740 (105.462799 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #18
+ sensor_baro
+    timestamp: 19985531740 (105.465660 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #19
+ sensor_baro
+    timestamp: 19985531740 (105.468384 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #20
+ sensor_baro
+    timestamp: 19985531740 (105.471062 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #21
+ sensor_baro
+    timestamp: 19985531740 (105.473846 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #22
+ sensor_baro
+    timestamp: 19985531740 (105.476532 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #23
+ sensor_baro
+    timestamp: 19985531740 (105.479256 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #24
+ sensor_baro
+    timestamp: 19985531740 (105.481941 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #25
+ sensor_baro
+    timestamp: 19985531740 (105.484718 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #26
+ sensor_baro
+    timestamp: 19985531740 (105.487419 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #27
+ sensor_baro
+    timestamp: 19985531740 (105.490135 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #28
+ sensor_baro
+    timestamp: 19985531740 (105.492828 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #29
+ sensor_baro
+    timestamp: 19985531740 (105.495750 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #30
+ sensor_baro
+    timestamp: 19985531740 (105.498482 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #31
+ sensor_baro
+    timestamp: 19985531740 (105.501183 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #32
+ sensor_baro
+    timestamp: 19985531740 (105.503883 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #33
+ sensor_baro
+    timestamp: 19985531740 (105.506653 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #34
+ sensor_baro
+    timestamp: 19985531740 (105.509377 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #35
+ sensor_baro
+    timestamp: 19985531740 (105.512070 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #36
+ sensor_baro
+    timestamp: 19985531740 (105.514862 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #37
+ sensor_baro
+    timestamp: 19985531740 (105.517609 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #38
+ sensor_baro
+    timestamp: 19985531740 (105.520325 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #39
+ sensor_baro
+    timestamp: 19985531740 (105.523026 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #40
+ sensor_baro
+    timestamp: 19985531740 (105.525810 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #41
+ sensor_baro
+    timestamp: 19985531740 (105.528519 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #42
+ sensor_baro
+    timestamp: 19985531740 (105.531204 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #43
+ sensor_baro
+    timestamp: 19985531740 (105.533905 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #44
+ sensor_baro
+    timestamp: 19985531740 (105.536690 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #45
+ sensor_baro
+    timestamp: 19985531740 (105.540367 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #46
+ sensor_baro
+    timestamp: 19985531740 (105.543518 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #47
+ sensor_baro
+    timestamp: 19985531740 (105.546577 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #48
+ sensor_baro
+    timestamp: 19985531740 (105.550598 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #49
+ sensor_baro
+    timestamp: 19985531740 (105.554131 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #50
+ sensor_baro
+    timestamp: 19985531740 (105.558372 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #51
+ sensor_baro
+    timestamp: 19985531740 (105.562172 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #52
+ sensor_baro
+    timestamp: 19985531740 (105.565971 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #53
+ sensor_baro
+    timestamp: 19985531740 (105.569771 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #54
+ sensor_baro
+    timestamp: 19985531740 (105.573463 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #55
+ sensor_baro
+    timestamp: 19985531740 (105.577103 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #56
+ sensor_baro
+    timestamp: 19985531740 (105.582062 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #57
+ sensor_baro
+    timestamp: 19985531740 (105.585770 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #58
+ sensor_baro
+    timestamp: 19985531740 (105.588943 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #59
+ sensor_baro
+    timestamp: 19985531740 (105.592430 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+
+TOPIC: sensor_baro instance 0 #60
+ sensor_baro
+    timestamp: 19985531740 (105.596031 seconds ago)
+    timestamp_sample: 19985531533 (207 us before timestamp)
+    device_id: 6780425 (Type: 0x67, I2C:1 (0x76))
+    pressure: 99509.98438
+    temperature: 38.27000
+    error_count: 0
+

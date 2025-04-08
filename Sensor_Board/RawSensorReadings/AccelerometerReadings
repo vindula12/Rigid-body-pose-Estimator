@@ -1,0 +1,839 @@
+TOPIC: sensor_accel instance 0 #1
+ sensor_accel
+    timestamp: 19859381753 (0.001514 seconds ago)
+    timestamp_sample: 19859381150 (603 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.47692
+    y: 0.19225
+    z: -9.44944
+    temperature: 42.36842
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #2
+ sensor_accel
+    timestamp: 19859384298 (0.002876 seconds ago)
+    timestamp_sample: 19859383681 (617 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.62249
+    y: 0.33950
+    z: -9.29740
+    temperature: 42.35374
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #3
+ sensor_accel
+    timestamp: 19859386812 (0.004897 seconds ago)
+    timestamp_sample: 19859386162 (650 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.58131
+    y: 0.17980
+    z: -9.40442
+    temperature: 42.38066
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #4
+ sensor_accel
+    timestamp: 19859389307 (0.006021 seconds ago)
+    timestamp_sample: 19859388664 (643 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.35530
+    y: 0.06273
+    z: -9.90721
+    temperature: 42.36108
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #5
+ sensor_accel
+    timestamp: 19859391845 (0.007219 seconds ago)
+    timestamp_sample: 19859391203 (642 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.36248
+    y: 0.05674
+    z: -10.23354
+    temperature: 42.28519
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #6
+ sensor_accel
+    timestamp: 19859394314 (0.008852 seconds ago)
+    timestamp_sample: 19859393693 (621 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.42353
+    y: 0.03304
+    z: -10.07887
+    temperature: 42.32925
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #7
+ sensor_accel
+    timestamp: 19859396799 (0.010121 seconds ago)
+    timestamp_sample: 19859396170 (629 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.52912
+    y: 0.18890
+    z: -9.78247
+    temperature: 42.33904
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #8
+ sensor_accel
+    timestamp: 19859399297 (0.011504 seconds ago)
+    timestamp_sample: 19859398654 (643 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.53917
+    y: 0.11708
+    z: -9.40993
+    temperature: 42.37332
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #9
+ sensor_accel
+    timestamp: 19859401799 (0.013070 seconds ago)
+    timestamp_sample: 19859401161 (638 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.44748
+    y: 0.12833
+    z: -9.23539
+    temperature: 42.37087
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #10
+ sensor_accel
+    timestamp: 19859404317 (0.014873 seconds ago)
+    timestamp_sample: 19859403712 (605 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.39600
+    y: 0.11468
+    z: -9.49828
+    temperature: 42.39045
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #11
+ sensor_accel
+    timestamp: 19859406814 (0.016405 seconds ago)
+    timestamp_sample: 19859406174 (640 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.55162
+    y: 0.21979
+    z: -9.52437
+    temperature: 42.33415
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #12
+ sensor_accel
+    timestamp: 19859409278 (0.017222 seconds ago)
+    timestamp_sample: 19859408672 (606 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.63901
+    y: 0.27246
+    z: -9.71687
+    temperature: 42.35618
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #13
+ sensor_accel
+    timestamp: 19859411830 (0.018465 seconds ago)
+    timestamp_sample: 19859411186 (644 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.47142
+    y: 0.17142
+    z: -9.91295
+    temperature: 42.36108
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #14
+ sensor_accel
+    timestamp: 19859414275 (0.019999 seconds ago)
+    timestamp_sample: 19859413665 (610 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.34812
+    y: 0.06393
+    z: -9.91607
+    temperature: 42.31946
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #15
+ sensor_accel
+    timestamp: 19859419609 (0.018329 seconds ago)
+    timestamp_sample: 19859418974 (635 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.45418
+    y: 0.17071
+    z: -9.49708
+    temperature: 42.34394
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #16
+ sensor_accel
+    timestamp: 19859421995 (0.019385 seconds ago)
+    timestamp_sample: 19859421377 (618 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.49799
+    y: 0.21787
+    z: -9.46141
+    temperature: 42.33660
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #17
+ sensor_accel
+    timestamp: 19859427052 (0.018302 seconds ago)
+    timestamp_sample: 19859426413 (639 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.39768
+    y: 0.15395
+    z: -9.75996
+    temperature: 42.28764
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #18
+ sensor_accel
+    timestamp: 19859429626 (0.019028 seconds ago)
+    timestamp_sample: 19859428987 (639 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.44772
+    y: 0.17478
+    z: -9.73075
+    temperature: 42.30478
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #19
+ sensor_accel
+    timestamp: 19859434685 (0.017759 seconds ago)
+    timestamp_sample: 19859433942 (743 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.62968
+    y: 0.22505
+    z: -9.47457
+    temperature: 42.36353
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #20
+ sensor_accel
+    timestamp: 19859437115 (0.018921 seconds ago)
+    timestamp_sample: 19859436474 (641 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.50973
+    y: 0.14605
+    z: -9.54760
+    temperature: 42.38066
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #21
+ sensor_accel
+    timestamp: 19859442236 (0.017606 seconds ago)
+    timestamp_sample: 19859441508 (728 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.36224
+    y: 0.10175
+    z: -9.81359
+    temperature: 42.39290
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #22
+ sensor_accel
+    timestamp: 19859444715 (0.019141 seconds ago)
+    timestamp_sample: 19859443985 (730 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.46711
+    y: 0.15682
+    z: -9.75374
+    temperature: 42.38800
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #23
+ sensor_accel
+    timestamp: 19859449640 (0.018015 seconds ago)
+    timestamp_sample: 19859448986 (654 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.49392
+    y: 0.15945
+    z: -9.59261
+    temperature: 42.37087
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #24
+ sensor_accel
+    timestamp: 19859452263 (0.019159 seconds ago)
+    timestamp_sample: 19859451595 (668 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.47453
+    y: 0.18579
+    z: -9.55239
+    temperature: 42.36842
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #25
+ sensor_accel
+    timestamp: 19859457150 (0.018347 seconds ago)
+    timestamp_sample: 19859456531 (619 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.57389
+    y: 0.21284
+    z: -9.51695
+    temperature: 42.30722
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #26
+ sensor_accel
+    timestamp: 19859459677 (0.019274 seconds ago)
+    timestamp_sample: 19859459056 (621 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.48890
+    y: 0.18603
+    z: -9.68048
+    temperature: 42.37332
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #27
+ sensor_accel
+    timestamp: 19859464579 (0.018693 seconds ago)
+    timestamp_sample: 19859463964 (615 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.32753
+    y: 0.07901
+    z: -9.91798
+    temperature: 42.38800
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #28
+ sensor_accel
+    timestamp: 19859469596 (0.017742 seconds ago)
+    timestamp_sample: 19859468986 (610 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.57868
+    y: 0.21691
+    z: -9.42047
+    temperature: 42.34394
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #29
+ sensor_accel
+    timestamp: 19859472173 (0.018912 seconds ago)
+    timestamp_sample: 19859471516 (657 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.50039
+    y: 0.23080
+    z: -9.39604
+    temperature: 42.32925
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #30
+ sensor_accel
+    timestamp: 19859477182 (0.017980 seconds ago)
+    timestamp_sample: 19859476566 (616 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.46352
+    y: 0.18771
+    z: -9.72333
+    temperature: 42.37821
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #31
+ sensor_accel
+    timestamp: 19859479705 (0.018964 seconds ago)
+    timestamp_sample: 19859479085 (620 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.52505
+    y: 0.21476
+    z: -9.74512
+    temperature: 42.36353
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #32
+ sensor_accel
+    timestamp: 19859484630 (0.018345 seconds ago)
+    timestamp_sample: 19859484012 (618 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.41731
+    y: 0.10870
+    z: -9.66396
+    temperature: 42.35374
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #33
+ sensor_accel
+    timestamp: 19859487158 (0.019446 seconds ago)
+    timestamp_sample: 19859486534 (624 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.35650
+    y: 0.06177
+    z: -9.65055
+    temperature: 42.37332
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #34
+ sensor_accel
+    timestamp: 19859492207 (0.018229 seconds ago)
+    timestamp_sample: 19859491576 (631 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.53127
+    y: 0.17909
+    z: -9.54377
+    temperature: 42.40514
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #35
+ sensor_accel
+    timestamp: 19859494727 (0.019997 seconds ago)
+    timestamp_sample: 19859494099 (628 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.54995
+    y: 0.22625
+    z: -9.65031
+    temperature: 42.35618
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #36
+ sensor_accel
+    timestamp: 19859499859 (0.018512 seconds ago)
+    timestamp_sample: 19859499202 (657 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.44317
+    y: 0.14389
+    z: -9.72190
+    temperature: 42.41248
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #37
+ sensor_accel
+    timestamp: 19859504803 (0.017813 seconds ago)
+    timestamp_sample: 19859504129 (674 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.55450
+    y: 0.18914
+    z: -9.47170
+    temperature: 42.38311
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #38
+ sensor_accel
+    timestamp: 19859507290 (0.019129 seconds ago)
+    timestamp_sample: 19859506676 (614 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.48411
+    y: 0.18842
+    z: -9.53156
+    temperature: 42.35129
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #39
+ sensor_accel
+    timestamp: 19859512346 (0.018510 seconds ago)
+    timestamp_sample: 19859511714 (632 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.39696
+    y: 0.11037
+    z: -9.75901
+    temperature: 42.37576
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #40
+ sensor_accel
+    timestamp: 19859517275 (0.017821 seconds ago)
+    timestamp_sample: 19859516667 (608 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.54923
+    y: 0.24708
+    z: -9.64863
+    temperature: 42.33904
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #41
+ sensor_accel
+    timestamp: 19859519811 (0.018809 seconds ago)
+    timestamp_sample: 19859519193 (618 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.52984
+    y: 0.21572
+    z: -9.55119
+    temperature: 42.33415
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #42
+ sensor_accel
+    timestamp: 19859524940 (0.017718 seconds ago)
+    timestamp_sample: 19859524255 (685 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.44388
+    y: 0.17023
+    z: -9.56436
+    temperature: 42.33904
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #43
+ sensor_accel
+    timestamp: 19859527274 (0.019261 seconds ago)
+    timestamp_sample: 19859526650 (624 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.48890
+    y: 0.16807
+    z: -9.64265
+    temperature: 42.31946
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #44
+ sensor_accel
+    timestamp: 19859532333 (0.018449 seconds ago)
+    timestamp_sample: 19859531699 (634 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.46591
+    y: 0.11372
+    z: -9.74488
+    temperature: 42.38556
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #45
+ sensor_accel
+    timestamp: 19859537351 (0.017706 seconds ago)
+    timestamp_sample: 19859536744 (607 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.48961
+    y: 0.14988
+    z: -9.59811
+    temperature: 42.33660
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #46
+ sensor_accel
+    timestamp: 19859539944 (0.018615 seconds ago)
+    timestamp_sample: 19859539305 (639 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.52505
+    y: 0.20087
+    z: -9.51982
+    temperature: 42.35863
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #47
+ sensor_accel
+    timestamp: 19859544859 (0.017905 seconds ago)
+    timestamp_sample: 19859544218 (641 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.48315
+    y: 0.15419
+    z: -9.62302
+    temperature: 42.37332
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #48
+ sensor_accel
+    timestamp: 19859547369 (0.019202 seconds ago)
+    timestamp_sample: 19859546746 (623 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.42329
+    y: 0.13599
+    z: -9.71184
+    temperature: 42.33904
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #49
+ sensor_accel
+    timestamp: 19859552420 (0.018346 seconds ago)
+    timestamp_sample: 19859551777 (643 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.46567
+    y: 0.16520
+    z: -9.65007
+    temperature: 42.30967
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #50
+ sensor_accel
+    timestamp: 19859554960 (0.019739 seconds ago)
+    timestamp_sample: 19859554324 (636 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.45993
+    y: 0.17238
+    z: -9.60626
+    temperature: 42.35374
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #51
+ sensor_accel
+    timestamp: 19859559994 (0.018365 seconds ago)
+    timestamp_sample: 19859559369 (625 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.44963
+    y: 0.17693
+    z: -9.62804
+    temperature: 42.31212
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #52
+ sensor_accel
+    timestamp: 19859562413 (0.019295 seconds ago)
+    timestamp_sample: 19859561773 (640 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.49105
+    y: 0.19944
+    z: -9.65438
+    temperature: 42.37576
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #53
+ sensor_accel
+    timestamp: 19859567424 (0.017720 seconds ago)
+    timestamp_sample: 19859566807 (617 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.49775
+    y: 0.18747
+    z: -9.65677
+    temperature: 42.33170
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #54
+ sensor_accel
+    timestamp: 19859569931 (0.019001 seconds ago)
+    timestamp_sample: 19859569317 (614 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.43622
+    y: 0.14653
+    z: -9.64528
+    temperature: 42.37821
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #55
+ sensor_accel
+    timestamp: 19859572501 (0.019898 seconds ago)
+    timestamp_sample: 19859571855 (646 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.44628
+    y: 0.17645
+    z: -9.58734
+    temperature: 42.34394
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #56
+ sensor_accel
+    timestamp: 19859577558 (0.018403 seconds ago)
+    timestamp_sample: 19859576819 (739 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.47309
+    y: 0.16855
+    z: -9.61871
+    temperature: 42.34884
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #57
+ sensor_accel
+    timestamp: 19859579964 (0.019899 seconds ago)
+    timestamp_sample: 19859579347 (617 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.45514
+    y: 0.14581
+    z: -9.66228
+    temperature: 42.37576
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #58
+ sensor_accel
+    timestamp: 19859585084 (0.018419 seconds ago)
+    timestamp_sample: 19859584399 (685 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.49440
+    y: 0.15179
+    z: -9.68000
+    temperature: 42.36108
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #59
+ sensor_accel
+    timestamp: 19859587569 (0.019489 seconds ago)
+    timestamp_sample: 19859586918 (651 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.51284
+    y: 0.16257
+    z: -9.57537
+    temperature: 42.31702
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+
+
+TOPIC: sensor_accel instance 0 #60
+ sensor_accel
+    timestamp: 19859592479 (0.018632 seconds ago)
+    timestamp_sample: 19859591847 (632 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.47549
+    y: 0.18292
+    z: -9.58183
+    temperature: 42.36108
+    error_count: 29
+    clip_counter: [0, 0, 0]
+    samples: 10
+

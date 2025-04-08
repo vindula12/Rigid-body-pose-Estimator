@@ -1,0 +1,660 @@
+TOPIC: sensor_mag instance 0 #1
+ sensor_mag
+    timestamp: 19985553885 (323.992889 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #2
+ sensor_mag
+    timestamp: 19985553885 (323.996033 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #3
+ sensor_mag
+    timestamp: 19985553885 (324.002594 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #4
+ sensor_mag
+    timestamp: 19985553885 (324.011047 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #5
+ sensor_mag
+    timestamp: 19985553885 (324.019073 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #6
+ sensor_mag
+    timestamp: 19985553885 (324.023346 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #7
+ sensor_mag
+    timestamp: 19985553885 (324.027710 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #8
+ sensor_mag
+    timestamp: 19985553885 (324.030731 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #9
+ sensor_mag
+    timestamp: 19985553885 (324.034729 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #10
+ sensor_mag
+    timestamp: 19985553885 (324.039551 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #11
+ sensor_mag
+    timestamp: 19985553885 (324.043488 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #12
+ sensor_mag
+    timestamp: 19985553885 (324.048309 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #13
+ sensor_mag
+    timestamp: 19985553885 (324.052521 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #14
+ sensor_mag
+    timestamp: 19985553885 (324.057953 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #15
+ sensor_mag
+    timestamp: 19985553885 (324.062622 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #16
+ sensor_mag
+    timestamp: 19985553885 (324.067383 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #17
+ sensor_mag
+    timestamp: 19985553885 (324.072723 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #18
+ sensor_mag
+    timestamp: 19985553885 (324.079926 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #19
+ sensor_mag
+    timestamp: 19985553885 (324.086273 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #20
+ sensor_mag
+    timestamp: 19985553885 (324.092712 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #21
+ sensor_mag
+    timestamp: 19985553885 (324.101837 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #22
+ sensor_mag
+    timestamp: 19985553885 (324.107483 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #23
+ sensor_mag
+    timestamp: 19985553885 (324.110138 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #24
+ sensor_mag
+    timestamp: 19985553885 (324.113098 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #25
+ sensor_mag
+    timestamp: 19985553885 (324.115875 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #26
+ sensor_mag
+    timestamp: 19985553885 (324.118835 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #27
+ sensor_mag
+    timestamp: 19985553885 (324.122009 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #28
+ sensor_mag
+    timestamp: 19985553885 (324.125916 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #29
+ sensor_mag
+    timestamp: 19985553885 (324.131653 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #30
+ sensor_mag
+    timestamp: 19985553885 (324.137299 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #31
+ sensor_mag
+    timestamp: 19985553885 (324.144135 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #32
+ sensor_mag
+    timestamp: 19985553885 (324.150330 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #33
+ sensor_mag
+    timestamp: 19985553885 (324.153503 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #34
+ sensor_mag
+    timestamp: 19985553885 (324.156342 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #35
+ sensor_mag
+    timestamp: 19985553885 (324.159943 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #36
+ sensor_mag
+    timestamp: 19985553885 (324.163452 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #37
+ sensor_mag
+    timestamp: 19985553885 (324.166901 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #38
+ sensor_mag
+    timestamp: 19985553885 (324.171936 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #39
+ sensor_mag
+    timestamp: 19985553885 (324.178040 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #40
+ sensor_mag
+    timestamp: 19985553885 (324.183929 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #41
+ sensor_mag
+    timestamp: 19985553885 (324.187134 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #42
+ sensor_mag
+    timestamp: 19985553885 (324.190155 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #43
+ sensor_mag
+    timestamp: 19985553885 (324.192688 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #44
+ sensor_mag
+    timestamp: 19985553885 (324.195404 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #45
+ sensor_mag
+    timestamp: 19985553885 (324.198151 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #46
+ sensor_mag
+    timestamp: 19985553885 (324.201355 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #47
+ sensor_mag
+    timestamp: 19985553885 (324.206604 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #48
+ sensor_mag
+    timestamp: 19985553885 (324.213196 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #49
+ sensor_mag
+    timestamp: 19985553885 (324.219971 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #50
+ sensor_mag
+    timestamp: 19985553885 (324.224823 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #51
+ sensor_mag
+    timestamp: 19985553885 (324.227936 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #52
+ sensor_mag
+    timestamp: 19985553885 (324.231110 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #53
+ sensor_mag
+    timestamp: 19985553885 (324.233826 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #54
+ sensor_mag
+    timestamp: 19985553885 (324.236481 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #55
+ sensor_mag
+    timestamp: 19985553885 (324.239349 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #56
+ sensor_mag
+    timestamp: 19985553885 (324.242584 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #57
+ sensor_mag
+    timestamp: 19985553885 (324.245544 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #58
+ sensor_mag
+    timestamp: 19985553885 (324.249542 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #59
+ sensor_mag
+    timestamp: 19985553885 (324.253174 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+
+TOPIC: sensor_mag instance 0 #60
+ sensor_mag
+    timestamp: 19985553885 (324.256012 seconds ago)
+    timestamp_sample: 19985553682 (203 us before timestamp)
+    device_id: 527625 (Type: 0x08, I2C:1 (0x0D))
+    x: -0.55683
+    y: 0.24933
+    z: 0.03350
+    temperature: nan
+    error_count: 0
+

@@ -1,0 +1,838 @@
+TOPIC: sensor_gyro instance 0 #1
+ sensor_gyro
+    timestamp: 19985562208 (197.381973 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #2
+ sensor_gyro
+    timestamp: 19985562208 (197.385208 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #3
+ sensor_gyro
+    timestamp: 19985562208 (197.388321 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #4
+ sensor_gyro
+    timestamp: 19985562208 (197.391266 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #5
+ sensor_gyro
+    timestamp: 19985562208 (197.394424 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #6
+ sensor_gyro
+    timestamp: 19985562208 (197.397583 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #7
+ sensor_gyro
+    timestamp: 19985562208 (197.400528 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #8
+ sensor_gyro
+    timestamp: 19985562208 (197.403610 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #9
+ sensor_gyro
+    timestamp: 19985562208 (197.406616 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #10
+ sensor_gyro
+    timestamp: 19985562208 (197.409531 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #11
+ sensor_gyro
+    timestamp: 19985562208 (197.412628 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #12
+ sensor_gyro
+    timestamp: 19985562208 (197.415634 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #13
+ sensor_gyro
+    timestamp: 19985562208 (197.418564 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #14
+ sensor_gyro
+    timestamp: 19985562208 (197.421616 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #15
+ sensor_gyro
+    timestamp: 19985562208 (197.424667 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #16
+ sensor_gyro
+    timestamp: 19985562208 (197.427521 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #17
+ sensor_gyro
+    timestamp: 19985562208 (197.430695 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #18
+ sensor_gyro
+    timestamp: 19985562208 (197.433365 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #19
+ sensor_gyro
+    timestamp: 19985562208 (197.436325 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #20
+ sensor_gyro
+    timestamp: 19985562208 (197.439178 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #21
+ sensor_gyro
+    timestamp: 19985562208 (197.442078 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #22
+ sensor_gyro
+    timestamp: 19985562208 (197.445129 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #23
+ sensor_gyro
+    timestamp: 19985562208 (197.447952 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #24
+ sensor_gyro
+    timestamp: 19985562208 (197.450912 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #25
+ sensor_gyro
+    timestamp: 19985562208 (197.453827 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #26
+ sensor_gyro
+    timestamp: 19985562208 (197.457504 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #27
+ sensor_gyro
+    timestamp: 19985562208 (197.460495 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #28
+ sensor_gyro
+    timestamp: 19985562208 (197.463486 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #29
+ sensor_gyro
+    timestamp: 19985562208 (197.466217 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #30
+ sensor_gyro
+    timestamp: 19985562208 (197.469376 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #31
+ sensor_gyro
+    timestamp: 19985562208 (197.472198 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #32
+ sensor_gyro
+    timestamp: 19985562208 (197.475174 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #33
+ sensor_gyro
+    timestamp: 19985562208 (197.478271 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #34
+ sensor_gyro
+    timestamp: 19985562208 (197.481094 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #35
+ sensor_gyro
+    timestamp: 19985562208 (197.484055 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #36
+ sensor_gyro
+    timestamp: 19985562208 (197.487213 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #37
+ sensor_gyro
+    timestamp: 19985562208 (197.490021 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #38
+ sensor_gyro
+    timestamp: 19985562208 (198.389145 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #39
+ sensor_gyro
+    timestamp: 19985562208 (198.393021 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #40
+ sensor_gyro
+    timestamp: 19985562208 (198.396210 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #41
+ sensor_gyro
+    timestamp: 19985562208 (198.399734 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #42
+ sensor_gyro
+    timestamp: 19985562208 (198.402756 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #43
+ sensor_gyro
+    timestamp: 19985562208 (198.405838 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #44
+ sensor_gyro
+    timestamp: 19985562208 (198.409393 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #45
+ sensor_gyro
+    timestamp: 19985562208 (198.412369 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #46
+ sensor_gyro
+    timestamp: 19985562208 (198.415359 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #47
+ sensor_gyro
+    timestamp: 19985562208 (198.418625 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #48
+ sensor_gyro
+    timestamp: 19985562208 (198.421814 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #49
+ sensor_gyro
+    timestamp: 19985562208 (198.424561 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #50
+ sensor_gyro
+    timestamp: 19985562208 (198.427582 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #51
+ sensor_gyro
+    timestamp: 19985562208 (198.430984 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #52
+ sensor_gyro
+    timestamp: 19985562208 (198.433929 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #53
+ sensor_gyro
+    timestamp: 19985562208 (198.437012 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #54
+ sensor_gyro
+    timestamp: 19985562208 (198.440201 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #55
+ sensor_gyro
+    timestamp: 19985562208 (198.443314 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #56
+ sensor_gyro
+    timestamp: 19985562208 (198.446228 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #57
+ sensor_gyro
+    timestamp: 19985562208 (198.449539 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #58
+ sensor_gyro
+    timestamp: 19985562208 (198.452652 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #59
+ sensor_gyro
+    timestamp: 19985562208 (198.455505 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20
+
+
+TOPIC: sensor_gyro instance 0 #60
+ sensor_gyro
+    timestamp: 19985562208 (198.458939 seconds ago)
+    timestamp_sample: 19985561623 (585 us before timestamp)
+    device_id: 3670274 (Type: 0x38, SPI:0 (0x01))
+    x: -0.00615
+    y: -0.00991
+    z: -0.00818
+    temperature: 41.68299
+    error_count: 120
+    clip_counter: [0, 0, 0]
+    samples: 20

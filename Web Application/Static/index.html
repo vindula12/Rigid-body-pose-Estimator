@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Advanced EKF Visualization Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>🚀 Advanced EKF Visualization Dashboard</h1>
+            <p>Real-time IMU data processing with 3D rigid body animation</p>
+            <div class="connection-status">
+                <span id="connectionStatus" class="status-disconnected">⚡ Disconnected</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Control Panel -->
+            <section class="control-panel">
+                <div class="panel-header">
+                    <h2>📁 Control Panel</h2>
+                </div>
+                
+                <div class="upload-section">
+                    <div class="file-input-wrapper">
+                        <input type="file" id="fileInput" accept=".csv" class="file-input">
+                        <label for="fileInput" class="file-label">
+                            <span class="file-icon">📄</span>
+                            <span class="file-text">Choose CSV File</span>
+                        </label>
+                    </div>
+                    
+                    <div class="ekf-path-section">
+                        <label for="ekfPath">EKF21 Executable Path:</label>
+                        <input type="text" id="ekfPath" value="./EKF21" class="path-input">
+                    </div>
+                    
+                    <div class="control-buttons">
+                        <button id="processBtn" class="btn btn-primary">
+                            <span class="btn-icon">▶️</span>
+                            <span class="btn-text">Process Data</span>
+                        </button>
+                        <button id="cancelBtn" class="btn btn-danger" disabled>
+                            <span class="btn-icon">⏹️</span>
+                            <span class="btn-text">Cancel</span>
+                        </button>
+                        <button id="clearBtn" class="btn btn-success">
+                            <span class="btn-icon">🗑️</span>
+                            <span class="btn-text">Clear Results</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Progress Section -->
+                <div class="progress-section">
+                    <div class="progress-header">
+                        <h3>📊 Processing Status</h3>
+                    </div>
+                    <div class="progress-bar">
+                        <div id="progressFill" class="progress-fill"></div>
+                    </div>
+                    <div id="statusMessage" class="status-message">Ready to process IMU data...</div>
+                </div>
+            </section>
+
+            <!-- Statistics Panel -->
+            <section class="stats-panel">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">📈</div>
+                        <div class="stat-content">
+                            <div id="samplesProcessed" class="stat-value">0</div>
+                            <div class="stat-label">Samples Processed</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">⚡</div>
+                        <div class="stat-content">
+                            <div id="processingHz" class="stat-value">0 Hz</div>
+                            <div class="stat-label">Processing Rate</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🔄</div>
+                        <div class="stat-content">
+                            <div id="maxRoll" class="stat-value">0°</div>
+                            <div class="stat-label">Max Roll</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">📐</div>
+                        <div class="stat-content">
+                            <div id="maxPitch" class="stat-value">0°</div>
+                            <div class="stat-label">Max Pitch</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🧭</div>
+                        <div class="stat-content">
+                            <div id="maxYaw" class="stat-value">0°</div>
+                            <div class="stat-label">Max Yaw</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🎯</div>
+                        <div class="stat-content">
+                            <div id="quatNorm" class="stat-value">1.000</div>
+                            <div class="stat-label">Quaternion Norm</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Visualization Section -->
+            <section class="visualization-section">
+                <div class="vis-container">
+                    <!-- 3D Visualization -->
+                    <div class="vis-panel">
+                        <div class="panel-header">
+                            <h3>🎮 3D Rigid Body Animation</h3>
+                            <div class="animation-controls">
+                                <button id="playBtn" class="control-btn">▶️</button>
+                                <button id="pauseBtn" class="control-btn">⏸️</button>
+                                <button id="resetBtn" class="control-btn">🔄</button>
+                                <input type="range" id="speedSlider" min="0.1" max="5" step="0.1" value="1" class="speed-slider">
+                                <span id="speedLabel">1x</span>
+                            </div>
+                        </div>
+                        <div id="threejsContainer" class="threejs-container"></div>
+                        <div class="time-controls">
+                            <input type="range" id="timeSlider" min="0" max="100" step="1" value="0" class="time-slider">
+                            <div class="time-info">
+                                <span id="currentTime">0.00s</span> / <span id="totalTime">0.00s</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 2D Plots -->
+                    <div class="plots-panel">
+                        <div class="plot-container">
+                            <div class="plot-header">
+                                <h4>📊 Euler Angles</h4>
+                            </div>
+                            <div id="eulerPlot" class="plot"></div>
+                        </div>
+                        
+                        <div class="plot-container">
+                            <div class="plot-header">
+                                <h4>🔄 Quaternion Components</h4>
+                            </div>
+                            <div id="quaternionPlot" class="plot"></div>
+                        </div>
+                        
+                        <div class="plot-container">
+                            <div class="plot-header">
+                                <h4>📐 IMU Data</h4>
+                            </div>
+                            <div id="imuPlot" class="plot"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Processing EKF data...</div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="/static/threejs-visualization.js"></script>
+    <script src="/static/dashboard.js"></script>
+</body>
+</html>

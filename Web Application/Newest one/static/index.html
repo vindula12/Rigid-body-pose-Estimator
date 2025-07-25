@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Advanced 6-DOF EKF Visualization Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>🚀 Advanced 6-DOF EKF Visualization Dashboard</h1>
+            <p>Real-time IMU data processing with complete 6-DOF rigid body motion visualization</p>
+            <div class="dof-indicator">
+                <div class="dof-item">
+                    <span class="dof-icon">🔄</span>
+                    <span class="dof-label">3-DOF Rotation</span>
+                </div>
+                <div class="dof-item">
+                    <span class="dof-icon">📍</span>
+                    <span class="dof-label">3-DOF Translation</span>
+                </div>
+            </div>
+            <div class="connection-status">
+                <span id="connectionStatus" class="status-disconnected">⚡ Disconnected</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Control Panel -->
+            <section class="control-panel">
+                <div class="panel-header">
+                    <h2>📁 Control Panel</h2>
+                </div>
+                
+                <div class="upload-section">
+                    <div class="file-input-wrapper">
+                        <input type="file" id="fileInput" accept=".csv" class="file-input">
+                        <label for="fileInput" class="file-label">
+                            <span class="file-icon">📄</span>
+                            <span class="file-text">Choose CSV File</span>
+                        </label>
+                    </div>
+                    
+                    <div class="ekf-path-section">
+                        <label for="ekfPath">EKF21 Executable Path:</label>
+                        <input type="text" id="ekfPath" value="./EKF21" class="path-input">
+                    </div>
+                    
+                    <div class="control-buttons">
+                        <button id="processBtn" class="btn btn-primary">
+                            <span class="btn-icon">▶️</span>
+                            <span class="btn-text">Process Data</span>
+                        </button>
+                        <button id="cancelBtn" class="btn btn-danger" disabled>
+                            <span class="btn-icon">⏹️</span>
+                            <span class="btn-text">Cancel</span>
+                        </button>
+                        <button id="clearBtn" class="btn btn-success">
+                            <span class="btn-icon">🗑️</span>
+                            <span class="btn-text">Clear Results</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Progress Section -->
+                <div class="progress-section">
+                    <div class="progress-header">
+                        <h3>📊 Processing Status</h3>
+                    </div>
+                    <div class="progress-bar">
+                        <div id="progressFill" class="progress-fill"></div>
+                    </div>
+                    <div id="statusMessage" class="status-message">Ready to process IMU data...</div>
+                </div>
+            </section>
+
+            <!-- Enhanced Statistics Panel with Translation Stats -->
+            <section class="stats-panel">
+                <div class="stats-header">
+                    <h2>📊 Motion Analysis Dashboard</h2>
+                    <div class="motion-mode-indicator">
+                        <span id="motionMode" class="motion-mode">🔄 Rotation Only</span>
+                    </div>
+                </div>
+                
+                <div class="stats-grid">
+                    <!-- Processing Stats -->
+                    <div class="stat-category">
+                        <h3 class="category-title">⚡ Processing</h3>
+                        <div class="stat-card">
+                            <div class="stat-icon">📈</div>
+                            <div class="stat-content">
+                                <div id="samplesProcessed" class="stat-value">0</div>
+                                <div class="stat-label">Samples Processed</div>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">⚡</div>
+                            <div class="stat-content">
+                                <div id="processingHz" class="stat-value">0 Hz</div>
+                                <div class="stat-label">Processing Rate</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Rotation Stats -->
+                    <div class="stat-category">
+                        <h3 class="category-title">🔄 Rotation</h3>
+                        <div class="stat-card rotation-stat">
+                            <div class="stat-icon">🔄</div>
+                            <div class="stat-content">
+                                <div id="maxRoll" class="stat-value">0°</div>
+                                <div class="stat-label">Max Roll</div>
+                            </div>
+                        </div>
+                        <div class="stat-card rotation-stat">
+                            <div class="stat-icon">📐</div>
+                            <div class="stat-content">
+                                <div id="maxPitch" class="stat-value">0°</div>
+                                <div class="stat-label">Max Pitch</div>
+                            </div>
+                        </div>
+                        <div class="stat-card rotation-stat">
+                            <div class="stat-icon">🧭</div>
+                            <div class="stat-content">
+                                <div id="maxYaw" class="stat-value">0°</div>
+                                <div class="stat-label">Max Yaw</div>
+                            </div>
+                        </div>
+                        <div class="stat-card rotation-stat">
+                            <div class="stat-icon">🎯</div>
+                            <div class="stat-content">
+                                <div id="quatNorm" class="stat-value">1.000</div>
+                                <div class="stat-label">Quaternion Norm</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Translation Stats -->
+                    <div class="stat-category" id="translationStats" style="display: none;">
+                        <h3 class="category-title">📍 Translation</h3>
+                        <div class="stat-card translation-stat">
+                            <div class="stat-icon">📏</div>
+                            <div class="stat-content">
+                                <div id="maxDistance" class="stat-value">0.0 m</div>
+                                <div class="stat-label">Max Distance</div>
+                            </div>
+                        </div>
+                        <div class="stat-card translation-stat">
+                            <div class="stat-icon">🏃</div>
+                            <div class="stat-content">
+                                <div id="maxSpeed" class="stat-value">0.0 m/s</div>
+                                <div class="stat-label">Max Speed</div>
+                            </div>
+                        </div>
+                        <div class="stat-card translation-stat">
+                            <div class="stat-icon">🛤️</div>
+                            <div class="stat-content">
+                                <div id="totalDistance" class="stat-value">0.0 m</div>
+                                <div class="stat-label">Total Distance</div>
+                            </div>
+                        </div>
+                        <div class="stat-card translation-stat">
+                            <div class="stat-icon">🎯</div>
+                            <div class="stat-content">
+                                <div id="avgVelocity" class="stat-value">0.0 m/s</div>
+                                <div class="stat-label">Avg Velocity</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Enhanced Visualization Section -->
+            <section class="visualization-section">
+                <div class="vis-container">
+                    <!-- 3D Visualization with Translation Controls -->
+                    <div class="vis-panel">
+                        <div class="panel-header">
+                            <h3>🎮 6-DOF Rigid Body Animation</h3>
+                            <div class="visualization-mode-selector">
+                                <button id="rotationOnlyMode" class="mode-btn active">🔄 Rotation</button>
+                                <button id="translationMode" class="mode-btn">📍 Translation</button>
+                                <button id="fullMotionMode" class="mode-btn">🚀 6-DOF</button>
+                            </div>
+                        </div>
+                        
+                        <div class="animation-controls-bar">
+                            <div class="primary-controls">
+                                <button id="playBtn" class="control-btn">▶️ Play</button>
+                                <button id="pauseBtn" class="control-btn" style="display:none;">⏸️ Pause</button>
+                                <button id="resetBtn" class="control-btn">🔄 Reset</button>
+                                <button id="stepForwardBtn" class="control-btn">⏭️ Step</button>
+                                <button id="stepBackBtn" class="control-btn">⏮️ Back</button>
+                            </div>
+                            
+                            <div class="speed-control">
+                                <label>Speed: <span id="speedLabel">1.0x</span></label>
+                                <input type="range" id="speedSlider" min="0.1" max="10" step="0.1" value="1" class="speed-slider">
+                            </div>
+                            
+                            <div class="smoothing-control">
+                                <label>Smoothing: <span id="smoothingLabel">Medium</span></label>
+                                <input type="range" id="smoothingSlider" min="0" max="2" step="1" value="1" class="smoothing-slider">
+                            </div>
+                            
+                            <div class="view-controls">
+                                <button class="view-btn" onclick="setCamera3DView('front')">Front</button>
+                                <button class="view-btn" onclick="setCamera3DView('side')">Side</button>
+                                <button class="view-btn" onclick="setCamera3DView('top')">Top</button>
+                                <button class="view-btn" onclick="setCamera3DView('isometric')">3D</button>
+                                <button class="view-btn" onclick="resetCamera3DView()">Reset</button>
+                            </div>
+                        </div>
+
+                        <div id="threejsContainer" class="threejs-container"></div>
+                        
+                        <div class="time-controls">
+                            <input type="range" id="timeSlider" min="0" max="100" step="1" value="0" class="time-slider">
+                            <div class="time-info">
+                                <span id="currentTime">0.00s</span> / <span id="totalTime">0.00s</span>
+                            </div>
+                        </div>
+
+                        <!-- Translation-specific display options -->
+                        <div class="translation-options" id="translationOptions" style="display: none;">
+                            <div class="option-group">
+                                <h4>🎨 Visualization Options</h4>
+                                <label><input type="checkbox" id="showTrajectoryPath" checked> 📍 Trajectory Path</label>
+                                <label><input type="checkbox" id="showVelocityVector" checked> 🏃 Velocity Vector</label>
+                                <label><input type="checkbox" id="showPositionMarker" checked> 📌 Position Marker</label>
+                                <label><input type="checkbox" id="showMotionTrails" checked> ✨ Motion Trails</label>
+                                <label><input type="checkbox" id="followRigidBody"> 📹 Follow Camera</label>
+                                <label><input type="checkbox" id="showGrid" checked> 📐 Grid</label>
+                                <label><input type="checkbox" id="showAxes" checked> 🔗 Coordinate Axes</label>
+                            </div>
+                            
+                            <div class="option-group">
+                                <h4>🎛️ Display Settings</h4>
+                                <label>Trajectory Opacity: <span id="trajectoryOpacityValue">80%</span></label>
+                                <input type="range" id="trajectoryOpacity" min="10" max="100" value="80" class="opacity-slider">
+                                
+                                <label>Vector Scale: <span id="vectorScaleValue">1.0x</span></label>
+                                <input type="range" id="vectorScale" min="0.5" max="5" step="0.1" value="2" class="scale-slider">
+                                
+                                <label>Animation Quality: <span id="qualityValue">High</span></label>
+                                <input type="range" id="animationQuality" min="1" max="3" step="1" value="2" class="quality-slider">
+                            </div>
+                            
+                            <div class="option-group">
+                                <h4>🎯 Performance</h4>
+                                <label><input type="checkbox" id="enableInterpolation" checked> 🔄 Smooth Interpolation</label>
+                                <label><input type="checkbox" id="enablePrediction"> 🔮 Motion Prediction</label>
+                                <label><input type="checkbox" id="showPerformanceStats"> 📊 Performance Stats</label>
+                                
+                                <label>Frame Skip: <span id="frameSkipValue">1</span></label>
+                                <input type="range" id="frameSkip" min="1" max="10" step="1" value="1" class="skip-slider">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Enhanced 2D Plots with Translation Data -->
+                    <div class="plots-panel">
+                        <div class="plot-container">
+                            <div class="plot-header">
+                                <h4>📊 Orientation (Euler Angles)</h4>
+                                <div class="plot-toggle">
+                                    <button class="plot-toggle-btn active" data-plot="euler">Degrees</button>
+                                    <button class="plot-toggle-btn" data-plot="euler-rad">Radians</button>
+                                </div>
+                            </div>
+                            <div id="eulerPlot" class="plot"></div>
+                        </div>
+                        
+                        <div class="plot-container">
+                            <div class="plot-header">
+                                <h4>🔄 Quaternion Components</h4>
+                                <div class="plot-info">
+                                    <span class="info-icon" title="Quaternion representation of orientation">ℹ️</span>
+                                </div>
+                            </div>
+                            <div id="quaternionPlot" class="plot"></div>
+                        </div>
+
+                        <!-- Translation Plots (Hidden initially) -->
+                        <div class="plot-container translation-plot" id="positionPlotContainer" style="display: none;">
+                            <div class="plot-header">
+                                <h4>📍 Position (NED Frame)</h4>
+                                <div class="plot-toggle">
+                                    <button class="plot-toggle-btn active" data-plot="position-3d">3D</button>
+                                    <button class="plot-toggle-btn" data-plot="position-components">Components</button>
+                                </div>
+                            </div>
+                            <div id="positionPlot" class="plot"></div>
+                        </div>
+
+                        <div class="plot-container translation-plot" id="velocityPlotContainer" style="display: none;">
+                            <div class="plot-header">
+                                <h4>🏃 Velocity (NED Frame)</h4>
+                                <div class="plot-toggle">
+                                    <button class="plot-toggle-btn active" data-plot="velocity-magnitude">Magnitude</button>
+                                    <button class="plot-toggle-btn" data-plot="velocity-components">Components</button>
+                                </div>
+                            </div>
+                            <div id="velocityPlot" class="plot"></div>
+                        </div>
+                        
+                        <div class="plot-container">
+                            <div class="plot-header">
+                                <h4>📐 IMU Raw Data</h4>
+                                <div class="plot-toggle">
+                                    <button class="plot-toggle-btn active" data-plot="imu-accel">Accelerometer</button>
+                                    <button class="plot-toggle-btn" data-plot="imu-gyro">Gyroscope</button>
+                                    <button class="plot-toggle-btn" data-plot="imu-both">Both</button>
+                                </div>
+                            </div>
+                            <div id="imuPlot" class="plot"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Motion Summary Panel -->
+            <section class="motion-summary-panel" id="motionSummaryPanel" style="display: none;">
+                <div class="panel-header">
+                    <h2>📊 Motion Analysis Summary</h2>
+                </div>
+                
+                <div class="summary-grid">
+                    <div class="summary-card">
+                        <h3>🔄 Rotational Motion</h3>
+                        <div class="summary-stats">
+                            <div class="summary-stat">
+                                <span class="stat-label">Total Rotation:</span>
+                                <span id="totalRotation" class="stat-value">0°</span>
+                            </div>
+                            <div class="summary-stat">
+                                <span class="stat-label">Max Angular Rate:</span>
+                                <span id="maxAngularRate" class="stat-value">0°/s</span>
+                            </div>
+                            <div class="summary-stat">
+                                <span class="stat-label">Orientation Stability:</span>
+                                <span id="orientationStability" class="stat-value">Good</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="summary-card translation-summary" style="display: none;">
+                        <h3>📍 Translational Motion</h3>
+                        <div class="summary-stats">
+                            <div class="summary-stat">
+                                <span class="stat-label">Path Length:</span>
+                                <span id="pathLength" class="stat-value">0.0 m</span>
+                            </div>
+                            <div class="summary-stat">
+                                <span class="stat-label">Displacement:</span>
+                                <span id="netDisplacement" class="stat-value">0.0 m</span>
+                            </div>
+                            <div class="summary-stat">
+                                <span class="stat-label">Motion Efficiency:</span>
+                                <span id="motionEfficiency" class="stat-value">0%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="summary-card">
+                        <h3>🎯 EKF Performance</h3>
+                        <div class="summary-stats">
+                            <div class="summary-stat">
+                                <span class="stat-label">Convergence Time:</span>
+                                <span id="convergenceTime" class="stat-value">0.0 s</span>
+                            </div>
+                            <div class="summary-stat">
+                                <span class="stat-label">Estimation Quality:</span>
+                                <span id="estimationQuality" class="stat-value">Excellent</span>
+                            </div>
+                            <div class="summary-stat">
+                                <span class="stat-label">Innovation:</span>
+                                <span id="innovationLevel" class="stat-value">Low</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <div class="loading-text">Processing 6-DOF EKF data...</div>
+            <div class="loading-subtitle">Analyzing rotation and translation...</div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="/static/threejs-visualization.js"></script>
+    <script src="/static/dashboard.js"></script>
+</body>
+</html>
